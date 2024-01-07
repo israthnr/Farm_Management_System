@@ -1,0 +1,356 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #575353;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+#homePage {
+  text-align: center;
+}
+
+.category {
+  margin: 20px;
+  cursor: pointer;
+  display: inline-block;
+  width: 30%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+}
+
+.category img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+section {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  color: #333;
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#cropInformation h2,h1 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cropInformation button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#cropInformation button:hover {
+  background-color: #555;
+}
+
+#topography form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#topography label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#topography h2 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#topography input,
+#topography textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#topography button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#topography button:hover {
+  background-color: #555;
+}
+
+#historicalData form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#historicalData label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#historicalData h2 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#historicalData textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#historicalData button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#historicalData button:hover {
+  background-color: #555;
+}
+
+#pestDiseaseMonitoring form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#pestDiseaseMonitoring label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#pestDiseaseMonitoring h2 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#pestDiseaseMonitoring textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#pestDiseaseMonitoring button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#pestDiseaseMonitoring button:hover {
+  background-color: #555;
+}
+
+#harvestData form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#harvestData label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#harvestData h2 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#harvestData textarea,
+#harvestData input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#harvestData button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#harvestData button:hover {
+  background-color: #555;
+}
+
+#complianceRegulations form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#complianceRegulations label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#complianceRegulations h2 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#complianceRegulations textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#complianceRegulations button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#complianceRegulations button:hover {
+  background-color: #555;
+}
+
+
+#fieldLayout button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#fieldLayout button:hover {
+  background-color: #555;
+}
+
+#soilInformation h1,
+h2,
+h3 {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#soilInformation button {
+  display: block;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#soilInformation button:hover {
+  background-color: #555;
+}
+
+/* Add some basic styling to the table */
+.two-column-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.two-column-table th, .two-column-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.two-column-table td{
+  text-align: left;
+}
+
+/* Style for the image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* If you want images to wrap to the next line if there's no space */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+/* Style for images within the container */
+.image-container img {
+  max-width: 100%; /* Ensure the images don't exceed their container */
+  height: auto; /* Maintain image aspect ratio */
+  margin: 10px; /* Adjust margin between images */
+}
+

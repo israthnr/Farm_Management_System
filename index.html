@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm Management System</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Farm Management System</h1>
+    </header>
+
+    <div id="homePage">
+      <h2>Welcome to Farm Management System</h2>
+      <p>Explore the following categories:</p>
+
+      <div class="category" onclick="navigateTo('fieldLayout')">
+        <img src="./assets/Field Layout.jpg" alt="Field Layout" />
+        <p>Field Layout</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('cropInformation')">
+        <img src="./assets/Crop Information.jpg" alt="Crop Information" />
+        <p>Crop Information</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('soilInformation')">
+        <img src="./assets/Soil Information.jpg" alt="Soil Information" />
+        <p>Soil Information</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('infrastructureResources')">
+        <img
+          src="./assets/Infrastructure and Resources.jpg"
+          alt="Infrastructure and Resources"
+        />
+        <p>Infrastructure and Resources</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('harvestData')">
+        <img src="./assets/Harvest Data.jpg" alt="Harvest Data" />
+        <p>Harvest Data</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('historicalData')">
+        <img src="./assets/Historical Data.jpg" alt="Historical Data" />
+        <p>Historical Data</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('pestDiseaseMonitoring')">
+        <img
+          src="./assets/Pest and Disease Monitoring.jpg"
+          alt="Pest and Disease Monitoring"
+        />
+        <p>Pest and Disease Monitoring</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('topography')">
+        <img src="./assets//Topography.jpg" alt="Topography" />
+        <p>Topography</p>
+      </div>
+
+      <div class="category" onclick="navigateTo('complianceRegulations')">
+        <img
+          src="./assets/Compliance and Regulations.jpg"
+          alt="Compliance and Regulations"
+        />
+        <p>Compliance and Regulations</p>
+      </div>
+    </div>
+
+    <section id="fieldLayout" class="hidden">
+      <h2>Field Layout</h2>
+      <p>
+        Field Boundaries: Additional Details: GPS Coordinates: Include precise
+        GPS coordinates for each corner of the field. Perimeter Fence
+        Information: Note details about perimeter fencing for security. Crop
+        Locations: Additional Details: Crop Rotation Plan: Specify the rotation
+        schedule for different crops within the field. Companion Planting:
+        Identify crops planted together for mutual benefits. Intercropping
+        Areas: Designate spaces for growing multiple crops in close proximity.
+        Farming Activities: Additional Details: Planting Schedule: Outline
+        specific dates for planting different crops. Harvesting Plan: Include
+        anticipated harvest dates for each crop. Irrigation Zones: Mark areas
+        where specific irrigation methods are employed. Equipment Storage:
+        Additional Details: Equipment Sheds: Note locations of sheds for storing
+        tractors, plows, and other machinery. Maintenance Stations: Designate
+        areas for routine equipment maintenance.
+      </p>
+      <button onclick="goBack()">Go Back to Home</button>
+    </section>
+
+    <section id="cropInformation" class="hidden">
+      <h1>Crop Information</h1>
+      <h2>Corn (Maize)</h2>
+      <p>
+        Corn is a warm-season crop that requires a long growing season and
+        plenty of sunlight. It is rich in carbohydrates, fiber, and essential
+        nutrients.
+      </p>
+      <img src="./assets/corn.jpeg" alt="corn" />
+
+      <h2>Wheat</h2>
+      <p>
+        Wheat is a cool-season crop that grows best in temperate regions. It is
+        a good source of complex carbohydrates, protein, and dietary fiber.
+      </p>
+      <img src="./assets/wheat.jpeg" alt="Wheat" />
+
+      <h2>Soybeans</h2>
+      <p>
+        Soybeans are a versatile crop that can be used for food, animal feed,
+        and industrial purposes. They are an excellent source of plant-based
+        protein and contain healthy fats.
+      </p>
+      <img src="./assets/soybeans.jpeg" alt="Soybeans" />
+
+      <h2>Rice</h2>
+      <p>
+        Rice is a staple food for billions of people worldwide and is a primary
+        crop in many Asian countries. It is a good source of energy and provides
+        essential nutrients.
+      </p>
+      <img src="./assets/rice.jpeg" alt="Rice" />
+
+      <h2>Cotton</h2>
+      <p>
+        Cotton is a major cash crop used in the textile industry for making
+        fabrics, clothing, and other products. It is known for its softness,
+        breathability, and durability.
+      </p>
+      <img src="./assets/cotton.jpeg" alt="Cotton" />
+
+      <h2>Potatoes</h2>
+      <p>
+        Potatoes are an important staple crop worldwide and are known for their
+        high carbohydrate content. They are versatile and can be cooked in
+        various ways, such as boiling, frying, or baking.
+      </p>
+      <img src="./assets/potato.jpeg" alt="Potatoes" />
+
+      <h2>Tomatoes</h2>
+      <p>
+        Tomatoes are a popular fruit that is often considered a vegetable in
+        culinary applications. They are rich in vitamins, minerals, and
+        antioxidants.
+      </p>
+      <img src="./assets/tomato.jpeg" alt="Tomatoes" />
+
+      <button onclick="goBack()">Go Back to Home</button>
+    </section>
+
+    <section id="soilInformation" class="hidden">
+      <h2>Soil Information</h2>
+      <h3>Types Of Soil In Agriculture To Grow Crops Efficiently</h3>
+
+      <div class="image-container">
+        <img src="./assets/soil.png" />
+        <br />
+
+        <p>
+          When it comes to crop production, considering the types of soil is
+          essential. Six main soil types are typically distinguished in
+          agriculture. Each of them has specific physical and chemical
+          properties.some types of soil are more productive and accommodating,
+          utilizing amendments suitable for each type can still benefit growers.
+
+          <br /><br />
+          The state of a field constantly changes due to various causes and must
+          be regularly examined. Satellite technologies can be advantageous for
+          pinpointing areas requiring immediate rehabilitation and tracking
+          changes over time.
+        </p>
+        <br /><br />
+        <img src="./assets/type.png" alt="type" />
+      </div>
+
+      <h3>Amendments for different soil types</h3>
+      <table class="two-column-table">
+        <thead>
+          <tr>
+            <th>Types of Soil</th>
+            <th>Amendments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sand</td>
+            <td>
+              Plenty of organic mulches, peat moss, compost, zeolite, or
+              bentonite clay.
+            </td>
+          </tr>
+          <tr>
+            <td>Clay</td>
+            <td>Compost and other organic matter.</td>
+          </tr>
+          <tr>
+            <td>Slit</td>
+            <td>Drainage aid particles, such as sand or compost.</td>
+          </tr>
+          <tr>
+            <td>Loam</td>
+            <td>Any organic amendments at least once a year.</td>
+          </tr>
+          <tr>
+            <td>Chalk</td>
+            <td>
+              Mulching around plant crowns and plenty of organic matter, such as
+              humus, manure, composted pine needles, or leaf mold.
+            </td>
+          </tr>
+          <tr>
+            <td>Peat</td>
+            <td>Sand, compost, mulch, and other drain-improving materials.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br />
+      <br />
+      <button onclick="goBack()">Go Back to Home</button>
+    </section>
+
+    <section id="infrastructureResources" class="hidden">
+      <h2>Infrastructure and Resources</h2>
+      <form>
+        <label for="irrigationLocation">Irrigation System Location:</label>
+        <input type="text" id="irrigationLocation" />
+
+        <label for="wellLocation">Well Location:</label>
+        <input type="text" id="wellLocation" />
+
+        <label for="storageFacilityLocation">Storage Facility Location:</label>
+        <input type="text" id="storageFacilityLocation" />
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <section id="topography" class="hidden">
+      <h2>Topography</h2>
+      <form>
+        <label for="elevation">Elevation:</label>
+        <input type="text" id="elevation" />
+
+        <label for="slope">Slope:</label>
+        <input type="text" id="slope" />
+
+        <label for="drainage">Drainage:</label>
+        <input type="text" id="drainage" />
+
+        <label for="naturalFeatures">Natural Features:</label>
+        <textarea id="naturalFeatures" rows="4" cols="50"></textarea>
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <section id="historicalData" class="hidden">
+      <h2>Historical Data</h2>
+      <form>
+        <label for="previousCrops">Previous Crops:</label>
+        <textarea id="previousCrops" rows="4" cols="50"></textarea>
+
+        <label for="yieldHistory">Yield History:</label>
+        <textarea id="yieldHistory" rows="4" cols="50"></textarea>
+
+        <label for="weatherPatterns">Weather Patterns:</label>
+        <textarea id="weatherPatterns" rows="4" cols="50"></textarea>
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <section id="pestDiseaseMonitoring" class="hidden">
+      <h2>Pest and Disease Monitoring</h2>
+      <form>
+        <label for="pestControl">Pest Control Measures:</label>
+        <textarea id="pestControl" rows="4" cols="50"></textarea>
+
+        <label for="diseaseManagement">Disease Management:</label>
+        <textarea id="diseaseManagement" rows="4" cols="50"></textarea>
+
+        <label for="monitoringMethods">Monitoring Methods:</label>
+        <textarea id="monitoringMethods" rows="4" cols="50"></textarea>
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <section id="harvestData" class="hidden">
+      <h2>Harvest Data</h2>
+      <form>
+        <label for="harvestedCrops">Harvested Crops:</label>
+        <textarea id="harvestedCrops" rows="4" cols="50"></textarea>
+
+        <label for="yieldPerAcre">Yield Per Acre:</label>
+        <input type="text" id="yieldPerAcre" />
+
+        <label for="qualityAnalysis">Quality Analysis:</label>
+        <textarea id="qualityAnalysis" rows="4" cols="50"></textarea>
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <section id="complianceRegulations" class="hidden">
+      <h2>Compliance and Regulations</h2>
+      <form>
+        <label for="regulatoryCompliance">Regulatory Compliance:</label>
+        <textarea id="regulatoryCompliance" rows="4" cols="50"></textarea>
+
+        <label for="permits">Required Permits:</label>
+        <textarea id="permits" rows="4" cols="50"></textarea>
+
+        <label for="environmentalImpact"
+          >Environmental Impact Assessment:</label
+        >
+        <textarea id="environmentalImpact" rows="4" cols="50"></textarea>
+
+        <button onclick="goBack()">Go Back to Home</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
